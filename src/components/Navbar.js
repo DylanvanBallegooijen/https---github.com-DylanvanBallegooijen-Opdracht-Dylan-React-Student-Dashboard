@@ -36,7 +36,7 @@ const Navbar = () => {
 								variant="primary"
 								id="dropdown-basic-button"
 							>
-								average all students
+								AverageStudents
 							</Button>
 						</NavLink>
 
