@@ -55,17 +55,14 @@ const Average = () => {
 				<div className="stylewrapper">
 					<div className="student-switches">
 						<div className="banner">
-							Select at least two students for a
-							comparison of the average results ({" "}
-							<span>{counter}</span> ) of (
-							<span>{students.length}</span>)
+							Select a student
 						</div>
 						<ul>{studentSwitches}</ul>
 					</div>
 					{filterAverageData.length !== 1 ? (
 						<div className="sort-option">
 							<div className="banner-sort">
-								Sort options
+								Sort
 							</div>
 							<Sort state={studentsData} data="average" />
 						</div>
@@ -73,8 +70,8 @@ const Average = () => {
 
 					<div className="assignment-options">
 						<div className="assignment-banner">
-							Select assignment to display - Current
-							selected (
+							
+							Selected (
 							{studentsData.average.filter ===
 							"showall" ? (
 								<span>

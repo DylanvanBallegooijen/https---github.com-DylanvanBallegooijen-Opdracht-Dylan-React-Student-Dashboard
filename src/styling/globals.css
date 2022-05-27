@@ -267,7 +267,7 @@ header a:link {
 header .header-container {
   padding-top: 30px;
   padding-bottom: 10px;
-  font-size: 70px;
+  font-size: 55px;
   background-color: rgb(255, 255, 255);
 }
 header .header-container .logo-students {
@@ -282,36 +282,15 @@ header .header-container .logo-students {
       -ms-flex-pack: center;
           justify-content: center;
 }
-header .header-container .logo-students .angle {
-  margin-top: 5px;
-  animation: animationFrames linear 3s;
-  animation-iteration-count: infinite;
-  transform-origin: 50% 0%;
-  -webkit-animation: animationFrames linear 3s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-transform-origin: 50% 0%;
-  -moz-animation: animationFrames linear 3s;
-  -moz-animation-iteration-count: infinite;
-  -moz-transform-origin: 50% 0%;
-  -o-animation: animationFrames linear 3s;
-  -o-animation-iteration-count: infinite;
-  -o-transform-origin: 50% 0%;
-  -ms-animation: animationFrames linear 3s;
-  -ms-animation-iteration-count: infinite;
-  -ms-transform-origin: 50% 0%;
-}
-
 
 @media (min-width: 1028px) {
   .header-container {
-    padding-left: 250px;
+    padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 10px;
   }
 
-  .logo-students span {
-    font-size: 60px;
-  }
+ 
 }
 nav {
   grid-area: n;
@@ -319,13 +298,16 @@ nav {
   width: 100%;
 }
 nav .nav-container {
+  display: flex;
   width: 100%;
-  padding-top: 20px;
-  padding-bottom: 40px;
+  margin: auto;
+  
 }
 nav .nav-container .students-overview-average {
-  width: 95%;
+  width: 50%;
   margin: auto;
+  display:flex;
+ 
 }
 nav #dropdown-basic-button {
   width: 100%;
@@ -333,9 +315,9 @@ nav #dropdown-basic-button {
   background-color: rgba(34, 50, 67, 0.44);
   color: #020202;
   border: 1px solid #223243;
-  -webkit-box-shadow: none;
+  -webkit-box-shadow:none;
           box-shadow: none;
-  outline: none;
+  outline:none;
 }
 nav .nav-item {
   width: 100%;
@@ -351,7 +333,7 @@ nav .dropdown-menu.show {
     height: 100%;
   }
   .nav-container-desktop .nav-item {
-    color: #223243;
+    color: #432222;
   }
   .nav-container-desktop .nav-wrapper {
     display: -webkit-box;
@@ -385,7 +367,7 @@ nav .dropdown-menu.show {
     margin-right: 10px;
   }
   .nav-container-desktop .nav-group h3 {
-    text-decoration: underline;
+    text-decoration:underline
   }
   .nav-container-desktop .nav-group ul {
     list-style: none;
@@ -394,12 +376,7 @@ nav .dropdown-menu.show {
     padding-left: 40px;
     cursor: pointer;
   }
-  .nav-container-desktop .nav-group ul li:hover {
-    width: 100%;
-    background-color: #0e0f10;
-    color: #f8ffdb;
-    border-radius: 3px;
-  }
+  
   .nav-container-desktop .nav-group ul li:hover > a {
     color: #f8ffdb;
     text-decoration: none;

@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom"
 import DropdownButton from "react-bootstrap/DropdownButton"
 import Button from "react-bootstrap/Button"
 import { useMediaQuery } from "@material-ui/core"
-import { GiAura, GiAngelWings, GiBlackBook } from "react-icons/gi"
+import { GiAura, GiBlackBook } from "react-icons/gi"
 
 const Navbar = () => {
 	const { students, assignments } = useDashBoard()
@@ -62,9 +62,7 @@ const Navbar = () => {
 				<div className="nav-container-desktop">
 					<div className="nav-wrapper">
 						<div className="nav-group">
-							<div className="icon-wrapper">
-								<GiAngelWings className="iconChart" />
-								<h3>Overview</h3>
+						<div className="icon-wrapper">
 							</div>
 							<ul className="all-students">
 								<li>
