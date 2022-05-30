@@ -1,4 +1,5 @@
 .average {
+	
 	grid-area: m;
 	width: 100%;
 	font-size: 16px;
@@ -7,7 +8,7 @@
 		color: rgba(248, 255, 219, 1);
 	}
 	& .average-container {
-		width: 95%;
+		width: 100%;
 		margin: auto;
 		& .average-header {
 			text-align: center;
@@ -65,6 +66,7 @@
 	.stylewrapper {
 		max-width: 1350px;
 		margin: auto;
+		
 	}
 	.average-header span {
 		font-size: 25px;

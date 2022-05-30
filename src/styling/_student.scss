@@ -2,7 +2,7 @@
 	grid-area: m;
 	width: 100%;
 	& .student-container {
-		width: 95%;
+		width: 100%;
 		margin: auto;
 
 		& .student-header {
@@ -62,7 +62,7 @@
 		overflow-y: scroll;
 	}
 	.student-container {
-		max-width: 1300px;
+		max-width: 1350px;
 		margin: auto;
 	}
 	.student .chart {
